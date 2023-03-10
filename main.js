@@ -53,10 +53,6 @@ if (fila1 <= 4) {
                                     fila[fila1].children[h].style.backgroundColor = "yellow"
 
                                 }
-                            } else {
-                                fila[fila1].children[h].style.backgroundColor = "grey"
-
-                            }
 
                         }
 
@@ -76,7 +72,8 @@ if (fila1 <= 4) {
                 fila1++;
                 celda1 = 0;
 
-            } else if (e.key == "Backspace") {
+            }
+            if (e.key == "Backspace") {
                 fila[fila1].children[celda1 - 1].innerHTML = ""
                 fila[fila1].children[celda1 - 1].style.backgroundColor = "rgba(21, 21, 21, 0.87)"
 
@@ -104,7 +101,7 @@ if (fila1 <= 4) {
                 }, "200")
             }
 
-
+        
 
         })
     }
