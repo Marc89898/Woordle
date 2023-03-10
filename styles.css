@@ -1,13 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgba(21, 21, 21, 0.87);
-    
+
+    background-color: grey;
 }
 
 body{
-    margin: 0;
-    padding: 0;
     height: 100vh;
     width: 100vw;
 }
@@ -36,13 +34,13 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 1px;
-    color: grey;
+    color: rgb(42, 40, 40);
 }
 
 .celda{
     width: 70px;
     height: 70px;
-    border: 2px solid rgb(44, 55, 65);
+    border: 2px solid rgb(11, 14, 16);
     text-transform: uppercase;
     border-radius: 5px;
     color:white;
@@ -50,15 +48,15 @@ p{
     justify-content: center;
     align-items: center;
     font-size: 3em;
-    background-color: none;
 }
 #secundary{
-    margin-top: 35px;
+    margin-top: 5vh;
     width: 100vw;
     height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 #teclat{
     display: grid;
@@ -76,9 +74,9 @@ button{
     height: 50px;
     width: 50px;
     border-radius: 3px;
-    background-color: grey;
+    background-color: rgba(49, 49, 49, 0.87);
     border: none;
 }
 button:hover{
-    background-color: rgba(49, 49, 49, 0.87);
+    background-color: white;
 }
